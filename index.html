@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mySite</title>
+  <link rel="icon" sizes="any" type="image/png" href="/static/icon1.png" />
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <video id="bg_clip" autoplay muted loop>
+    <source src="static/V2630.mp4" type="video/mp4">
+  </video>
+  <header>
+    <a href="/index.html">
+    <img src="static/icon1.png" alt="logo">
+    </a>
+    <ul>
+      <li><a class="tab" href="index.html" active="true">Home</a></li>
+      <li><a class="tab" href="resume.html">Resume</a></li>
+      <li><a class="tab" href="contact.html">Contact</a></li>
+      <li><a class="tab" href="resource.html">Resources</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="light">
+      <div class="box">
+        <p id="p1">Myself</p>
+        <p id="name">Ayush Rastogi</p>
+        <p id="p3">Software Developer Engineer</p>
+      </div>
+    </section>
+    <section>
+      <div class="about">
+        <h2>About me</h2>
+        <p>Hey, I'm a resident of Meerut, a city of Uttar Pradesh, India. Currently immersing myself in the final year of my B.Tech journey in Computer Science. My focus? It's all about continuous learning and seizing every opportunity to refine my skills. Proficient in <u><b> Python, web designing, and cloud technologies</b></u>, I thrive on crafting cutting-edge solutions that push boundaries. I'm on a quest to blend creativity with technical prowess, eager to make a mark in the tech realm.</p>
+      </div>
+    </section>
+    <section>
+      <h2>My Skills</h2>
+      <div class="slider" style="
+          --width: 200px;
+          --height: 40px;
+          --quantity: 7;
+      ">
+        <div class="list">
+          <div class="item" style="--position: 1">Python</div>
+          <div class="item" style="--position: 2">HTML</div>
+          <div class="item" style="--position: 3">CSS</div>
+          <div class="item" style="--position: 4">bootstrap</div>
+          <div class="item" style="--position: 5">JavaScript</div>
+          <div class="item" style="--position: 6">MySQL</div>
+          <div class="item" style="--position: 7">AWS</div>
+        </div>
+      </div>
+<br>
+      <div class="slider" reverse="true" style="
+          --width: 150px;
+          --height: 150px;
+          --quantity: 7;
+      ">
+        <div class="list">
+          <div class="item" style="--position: 1"><img src="static/html.png" alt=""> </div>
+          <div class="item" style="--position: 2"><img src="static/css.png" alt=""></div>
+          <div class="item" style="--position: 3"><img src="static/js.png" alt=""></div>
+          <div class="item" style="--position: 4"><img src="static/python.png" alt=""></div>
+          <div class="item" style="--position: 5"><img src="static/mysql.png" alt=""></div>
+          <div class="item" style="--position: 6"><img src="static/bootstrap.png" alt=""></div>
+          <div class="item" style="--position: 7"><img src="static/aws.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="project">
+        Projects will be added soon...
+      </div>
+    </section>
+  </main>
+  <script defer type="text/javascript" src="/script.js"></script>
+</body>
+</html>
