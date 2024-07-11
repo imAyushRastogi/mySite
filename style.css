@@ -220,13 +220,13 @@ section{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     left: 100%;
-    animation: autorun linear 7s infinite;
+    animation: autorun linear 8s infinite;
     transition: filter 0.5s;
-    animation-delay: calc((7s/var(--quantity))*(var(--position)));
+    animation-delay: calc((8s/var(--quantity))*(var(--position)));
 }
 .slider[reverse="true"] .item{
-    animation: autorun linear 7s infinite reverse;
-    animation-delay: calc((7s/var(--quantity))*(var(--position)));
+    animation: autorun linear 8s infinite reverse;
+    animation-delay: calc((8s/var(--quantity))*(var(--position)));
 
 }
 @keyframes autorun {
