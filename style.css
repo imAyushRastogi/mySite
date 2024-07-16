@@ -258,9 +258,10 @@ section{
 
 }
 
-.resume{
+.res div{
     border-radius: 20px;
-    width: 70vw;
+    width: 70%;
+    height: 70%;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     text-align: center;
@@ -268,4 +269,14 @@ section{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+
+}
+
+.res div h2{
+    margin: 5vh;
+}
+#doc{
+    margin: 30vw;
+    margin-top: 0;
+
 }
