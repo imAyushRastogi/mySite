@@ -258,7 +258,7 @@ section{
 
 }
 
-.res div{
+.resume{
     border-radius: 20px;
     width: 70%;
     height: 70%;
@@ -269,14 +269,8 @@ section{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-
 }
 
-.res div h2{
+.resume h2{
     margin: 5vh;
-}
-#doc{
-    margin: 30vw;
-    margin-top: 0;
-
 }
