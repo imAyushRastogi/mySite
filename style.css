@@ -257,3 +257,15 @@ section{
     flex-direction: column;
 
 }
+
+.resume{
+    border-radius: 20px;
+    width: 70vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
