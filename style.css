@@ -224,6 +224,9 @@ section{
     transition: filter 0.5s;
     animation-delay: calc((8s/var(--quantity))*(var(--position)));
 }
+.item img{
+    width : 100px;
+}
 .slider[reverse="true"] .item{
     animation: autorun linear 8s infinite reverse;
     animation-delay: calc((8s/var(--quantity))*(var(--position)));
